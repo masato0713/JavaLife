@@ -1,7 +1,7 @@
 /**
   冒泡排序法
 */
-public class Bubble{
+public class BubbleSort{
   public static void main(String[] args){
     int[] arr = new int[]{6,4,7,3,1,8,9,2,5};
     for(int i = 1;i < arr.length;i++){
