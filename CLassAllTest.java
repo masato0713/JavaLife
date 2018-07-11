@@ -66,6 +66,7 @@ public class ClassAllTest {
 		for (int i = 1; i < arr.length; i++) {
 			int j = i;
 			int temp = arr[j];
+			//将后面的数往前面插入（比前面的数小就执行插入，知道前面的数不比后面的数大）
 			while (j > 0 && temp < arr[j - 1]) {
 				arr[j] = arr[j - 1];
 				j--;
