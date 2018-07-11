@@ -73,6 +73,7 @@ public class ClassAllTest {
 			arr[j] = temp;
 		}
 	}
+	//二分查找法
 	public static int binarySeek(int[] arr,int target){
 		int start = 0;
 		int end = arr.length - 1;
@@ -90,6 +91,7 @@ public class ClassAllTest {
 		}
 		return -1;
 	}
+	//快速排序法
 	public static void quickSort(int[] arr, int s,int e){
 		if (s >= e) {
 			return;
